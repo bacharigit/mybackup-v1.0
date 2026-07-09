@@ -175,3 +175,12 @@ exit
 * Docker automatically creates the `/data` and `/backup` mount points when the container starts.
 * The container is designed to work well with scheduled tasks such as `cron`.
 * Backup archives are stored on the host, so they remain available even after the backup container exits and is removed. During each backup run, the container also removes backup archives older than 30 days to help keep the backup directory clean.
+
+## Docker Image
+
+The Docker image is available on Docker Hub:
+https://hub.docker.com/r/bacharidocker/mybackup
+
+## Author
+
+Hossein Bachari
