@@ -84,7 +84,7 @@ The backup archives are stored on the host in:
 
 ```text
 $HOME/backups
-
+```
 They remain available even after the backup container exits because they are stored on the host through a Docker bind mount. Backup archives older than 30 days are removed only when the cleanup step in backup.sh is executed.
 
 
@@ -164,8 +164,6 @@ Exit the shell:
 ```sh
 exit
 ```
-
----
 
 # Notes
 
